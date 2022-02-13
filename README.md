@@ -1,2 +1,4 @@
 # Codi.io Research
-Researching open web3 infrastructure. More info coming shortly. In the mean time, check out codi.io/web3
+Researching open web3 infrastructure.
+
+More info coming soon. In the mean time, check out https://www.codi.io/web3
