@@ -17,11 +17,17 @@ By contrast, the web3 ecosystem is still in its infancy, with different projects
 
 ### Key questions to address
 
-1.) What might an open, global web3 infrastructure look like?
+1. What might an open, global web3 infrastructure look like?
+2. What existing protocols would be well suited to making up that infrastructure, and are there still gaps to fill?
+3. Can we create a working implementation of that joined-up infrastructure that is easy for anyone to run?
 
-2.) What existing protocols would be well suited to making up that infrastructure, and are there still gaps to fill?
+### Some guiding principles
 
-3.) Can we create a working implementation of that joined-up infrastructure that is easy for anyone to run?
+1. All parts of the infrastructure should use standards-based, open-source protocols and libraries
+2. Any computer should be able to help run the infrastructure, for maximum decentralisation
+3. There should be a fair incentive model in place for helping to run infrastructure
+4. I should be able to run a public or private instance of the infrastructure
+5. I should to code software in any programming languages of my choosing
 
 ### How can I get involved?
 
