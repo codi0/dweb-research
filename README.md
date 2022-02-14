@@ -1,7 +1,9 @@
 # Web3 research hub
 Welcome to the [codi.io](https://codi.io) collaborative research hub into open web3 infrastructure.
 
-Our mission is to replace centralised cloud platforms with a global web3 infrastructure, using standardised protocols.
+### Our mission
+
+To replace centralised cloud platforms with a global web3 infrastructure, using standardised protocols.
 
 ### What problem are we trying to solve?
 
