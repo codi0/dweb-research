@@ -27,7 +27,7 @@ By contrast, the web3 ecosystem is still in its infancy, with different projects
 2. Any computer should be able to help run the infrastructure, for maximum decentralisation
 3. There should be a fair incentive model in place for helping to run infrastructure
 4. I should be able to run a public or private instance of the infrastructure
-5. I should to code software in any programming languages of my choosing
+5. I should be able to code software in any programming languages of my choosing
 
 ### How can I get involved?
 
