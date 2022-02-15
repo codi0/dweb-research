@@ -30,10 +30,16 @@ By contrast, the web3 ecosystem, and the interoperable standards necessary for i
 5. I should be able to run a public or private instance of the infrastructure
 6. I should be able to code software in any programming languages of my choosing
 
+### A conceptual example
+
+A very simplified high-level view, from developer and end user perspectives, of how different protocols might be combined to form a decentralised infrastructure. This is meant as a starting point for discussion.
+
+ <img src="https://raw.githubusercontent.com/codi0/codi0.github.io/main/assets/img/codi-example.png" width="100%">
+
 ### How can I get involved?
 
-We recommend first having a look at our [web3 ecosystem map](https://codi.io/web3). It paints a picture of the different web3 layers, and examples of existing projects within each layer. The map will keep evolving as we progress.
+First off, have a look at our [web3 ecosystem map](https://codi.io/web3). It paints a picture of the different web3 layers, and examples of existing projects within each layer. The map will keep evolving as we progress.
 
-Then head over to our [discussion board](https://github.com/codi0/research/discussions) to share your thoughts and ideas. If there's a particular area you're interested in and want to help research, we welcome any and all contributions.
+Then head over to our [discussion board](https://github.com/codi0/research/discussions) to share your thoughts and ideas on the example above (or anything else relating to web3 infrastructure). We welcome any and all contributions.
 
 This is an entirely open-source endeavour. As we progress, we'll also look at how to formalise and incentivise member contributions (E.g. through creation of a DAO).
