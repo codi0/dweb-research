@@ -24,10 +24,11 @@ By contrast, the web3 ecosystem, and the interoperable standards necessary for i
 ### Some guiding principles
 
 1. All parts of the infrastructure should use standards-based, open-source protocols and libraries
-2. Operational complexities and protocol integrations should be abstracted away from the end-developer
-3. Any computer should be able to help run the infrastructure, and be fairly compensated for doing so
-4. I should be able to run a public or private instance of the infrastructure
-5. I should be able to code software in any programming languages of my choosing\\
+2. Infrastructure should be modular by design, such that specific implementations can be swapped or extended
+3. Operational complexities and protocol integrations should be abstracted away from the end-developer
+4. Any computer should be able to help run the infrastructure, and be fairly compensated for doing so
+5. I should be able to run a public or private instance of the infrastructure
+6. I should be able to code software in any programming languages of my choosing
 
 ### How can I get involved?
 
