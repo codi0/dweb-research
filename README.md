@@ -9,9 +9,9 @@ To replace centralised cloud platforms with a global web3 infrastructure, using 
 
 Decentralised web technologies have developed significantly over the last decade; promising benefits that include censorship restistance, user-owned data, enchanced security, better privacy and 100% availability. The benefits of the decentralised web are becoming known as "web3".
 
-However, there are still significant challenges to overcome for the decentralised web to compete with traditional "web2" solutions, typically comprising of vast centralised computing infrastructure, controlled by a small number of large corporations (AWS, GCP, Azure etc). They are low cost, fast, scalable and convenient.
+However, there are still significant challenges to overcome for the decentralised web to compete with traditional "web2" solutions, typically comprising of vast centralised computing infrastructure and services, controlled by a small number of large corporations (AWS, GCP, Azure etc). They are low cost, fast, scalable and convenient.
 
-By contrast, the web3 ecosystem is still in its infancy, with different projects and protocols vying for supremacy, as expected in an emergent area of technology. We seek to understand what a truly open, standards-based web3 infrastructure might look like, and bring together the best solutions to realise that vision.
+By contrast, the web3 ecosystem, and the interoperable standards necessary for it to function effectively, is still in its infancy. We seek to understand what a truly open, standards-based web3 infrastructure might look like, and bring together the best solutions to realise that vision.
 
 > As a web developer, I want to develop and run decentralised, performant software as easily as I can run software on AWS.
 
@@ -24,10 +24,10 @@ By contrast, the web3 ecosystem is still in its infancy, with different projects
 ### Some guiding principles
 
 1. All parts of the infrastructure should use standards-based, open-source protocols and libraries
-2. Any computer should be able to help run the infrastructure, for maximum decentralisation
-3. There should be a fair incentive model in place for helping to run infrastructure
+2. Operational complexities and protocol integrations should be abstracted away from the end-developer
+3. Any computer should be able to help run the infrastructure, and be fairly compensated for doing so
 4. I should be able to run a public or private instance of the infrastructure
-5. I should be able to code software in any programming languages of my choosing
+5. I should be able to code software in any programming languages of my choosing\\
 
 ### How can I get involved?
 
