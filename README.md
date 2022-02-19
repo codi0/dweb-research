@@ -3,13 +3,13 @@ Welcome to the [codi.io](https://codi.io) collaborative research hub into open w
 
 ### Our mission
 
-To replace centralised cloud platforms with a global web3 infrastructure, using standardised protocols.
+To replace big-tech cloud platforms with an open web3 tech stack that benefits every developer.
 
 ### What problem are we trying to solve?
 
-Decentralised web technologies have developed significantly over the last decade; promising benefits that include censorship restistance, user-owned data, enchanced security, better privacy and 100% availability. The benefits of the decentralised web are becoming known as "web3".
+Decentralised web technologies have developed significantly over the last decade; promising benefits such as censorship restistance, user-owned data, enchanced security, better privacy and 100% availability. The benefits of the decentralised web are becoming known as "web3".
 
-However, there are still significant challenges to overcome for the decentralised web to compete with traditional "web2" solutions, typically comprising of vast centralised computing infrastructure and services, controlled by a small number of large corporations (AWS, GCP, Azure etc). They are low cost, fast, scalable and convenient.
+However, there are still significant challenges to overcome to compete with traditional "web2" solutions, typically comprising of vast centralised computing infrastructure and services, controlled by a small number of large corporations (AWS, GCP, Azure etc). They are low cost, fast, scalable and convenient.
 
 By contrast, the web3 ecosystem, and the interoperable standards necessary for it to function effectively, is still in its infancy. We seek to understand what a truly open, standards-based web3 infrastructure might look like, and bring together the best solutions to realise that vision.
 
