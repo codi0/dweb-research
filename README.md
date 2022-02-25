@@ -3,7 +3,7 @@ Welcome to the [codi.io](https://codi.io) collaborative research hub into open w
 
 ### Our mission
 
-To decentralise the world's computing infrastructure. We believe in an open web3 tech stack that benefits every developer and isn't reliant on centralised cloud providers.
+To decentralise the world's computing infrastructure. We believe in an open web3 tech stack, composed of standards-based protocols and not reliant on centralised cloud providers, that provides opportunity for every developer.
 
 ### What problem are we trying to solve?
 
