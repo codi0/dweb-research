@@ -40,6 +40,6 @@ A very simplified high-level view, from developer and end user perspectives, of 
 
 First off, have a look at our [web3 ecosystem map](https://codi.io/web3). It paints a picture of the different web3 layers, and examples of existing projects within each layer. The map will keep evolving as we progress.
 
-Then head over to our [discussion board](https://github.com/codi0/research/discussions) to share your thoughts and ideas on the example above (or anything else relating to web3 infrastructure). Please invite others to give their thoughts too.
+Then check out our [open discussions](https://github.com/codi0/research/issues?q=is%3Aissue+is%3Aopen+label%3Adiscussion) to share your thoughts on the vision and get involved in research and prototyping. We'd also appreciate if you shared this repo with anyone else you think might be interested.
 
 This is an entirely open-source endeavour. As we progress, we'll also look at how to formalise and incentivise member contributions (E.g. through creation of a DAO).
