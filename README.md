@@ -5,9 +5,11 @@ Welcome to the [codi.io](https://codi.io) collaborative research hub into open w
 
 To decentralise the world's computing infrastructure. We believe in an open web3 tech stack, composed of standards-based protocols and not reliant on centralised cloud providers, that provides opportunity for every developer.
 
+There are many potential solutions emerging across the decentralised web, both on-chain and off-chain. We imagine our platform as a hub that will integrate the best of these solutions, to create a seamless experience for deploying completely decentralised applications.
+
 ### What problem are we trying to solve?
 
-Decentralised web technologies have developed significantly over the last decade; promising benefits such as censorship restistance, user-owned data, enchanced security, better privacy and 100% availability. The benefits of the decentralised web are becoming known as "web3".
+Decentralised web technologies have developed significantly over the last decade; promising benefits such as censorship resistance, user-owned data, enchanced security, better privacy and 100% availability. The benefits of the decentralised web are becoming known as "web3".
 
 However, there are still significant challenges to overcome to compete with traditional "web2" solutions, typically comprising of vast centralised computing infrastructure and services, controlled by a small number of large corporations (AWS, GCP, Azure etc). They are low cost, fast, scalable and convenient.
 
@@ -32,7 +34,7 @@ By contrast, the web3 ecosystem, and the interoperable standards necessary for i
 
 ### A conceptual example
 
-A very simplified high-level view, from developer and end user perspectives, of how different protocols might be combined to form a decentralised infrastructure. This is meant as a starting point for discussion.
+A very simplified high-level view, from developer and end user perspectives, of how different protocols might be combined to form a decentralised infrastructure. This is meant as a starting point for discussion, not a finalised concept.
 
  <img src="https://raw.githubusercontent.com/codi0/codi0.github.io/main/assets/img/codi-example.png" width="100%">
 
