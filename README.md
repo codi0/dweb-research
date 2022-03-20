@@ -1,11 +1,15 @@
 # Web3 research hub
-Welcome to the [codi.io](https://codi.io) collaborative research hub into open web3 infrastructure.
+Welcome to the [codi.io](https://codi.io) research hub into open web3 infrastructure.
 
 ### Our mission
 
-To decentralise the world's computing infrastructure. We believe in an open web3 tech stack, composed of standards-based protocols and not reliant on centralised cloud providers, that provides opportunity for every developer.
+To decentralise the world's computing infrastructure. We believe in an open web3 tech stack, composed of interoperable decentralised protocols, that will replace our reliance on centralised cloud providers and be accessible for every developer.
 
-There are many potential solutions emerging across the decentralised web, both on-chain and off-chain. We imagine our platform as a hub that will integrate the best of these solutions, to create a seamless experience for deploying completely decentralised applications.
+We're creating an open-source development platform, integrating access to the best on-chain and off-chain solutions, to enable seamless creation and deployment of decentralised applications.
+
+### How can I get involved?
+
+Join our [developer community](https://codi.io/discord) to ask questions, share your ideas, and get involved in creating an open web3 tech stack!
 
 ### What problem are we trying to solve?
 
@@ -32,16 +36,14 @@ By contrast, the web3 ecosystem, and the interoperable standards necessary for i
 5. I should be able to run a public or private instance of the infrastructure
 6. I should be able to code software in any programming languages of my choosing
 
+### The web3 ecosystem
+
+We're mapping out the layers emerging in the web3 ecosystem, so we can fully understand and embrace its potential:
+
+[Check out our ecosystem map &raquo;](https://codi.io/web3)
+
 ### A conceptual example
 
-A very simplified high-level view, from developer and end user perspectives, of how different protocols might be combined to form a decentralised infrastructure. This is meant as a starting point for discussion, not a finalised concept.
+This is a simplified view of how different protocols might be combined to form a decentralised infrastructure. This is meant as a starting point for discussion, not a finalised concept.
 
  <img src="https://raw.githubusercontent.com/codi0/codi0.github.io/main/assets/img/codi-example.png" width="100%">
-
-### How can I get involved?
-
-First off, have a look at our [web3 ecosystem map](https://codi.io/web3). It paints a picture of the different web3 layers, and examples of existing projects within each layer. The map will keep evolving as we progress.
-
-Then check out our [open discussions](https://github.com/codi0/research/issues?q=is%3Aissue+is%3Aopen+label%3Adiscussion) to share your thoughts on the vision and get involved in research and prototyping. We'd also appreciate if you shared this repo with anyone else you think might be interested.
-
-This is an entirely open-source endeavour. As we progress, we'll also look at how to formalise and incentivise member contributions (E.g. through creation of a DAO).
