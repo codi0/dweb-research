@@ -1,23 +1,29 @@
-# Web3 research hub
-Welcome to the [codi.io](https://codi.io) collaborative research hub into open web3 infrastructure.
+# dWeb research hub
+Welcome to the [codi.io](https://codi.io) research hub into infrastructure for the decentralised web.
 
 ### Our mission
 
-To decentralise the world's computing infrastructure. We believe in an open web3 tech stack, composed of standards-based protocols and not reliant on centralised cloud providers, that provides opportunity for every developer.
+To decentralise the web's computing infrastructure. We believe in an open, self-sovereign web that gives people control over their own data and provides opportunity for the many, not the few.
+
+We're creating a dWeb platform for developers, built using the best open-source decentralised solutions, to enable seamless creation and deployment of fully decentralised applications.
+
+### How can I get involved?
+
+Join our [developer community](https://codi.io/discord) to ask questions, share your ideas, and get involved in creating a developer platform for the dWeb.
 
 ### What problem are we trying to solve?
 
-Decentralised web technologies have developed significantly over the last decade; promising benefits such as censorship restistance, user-owned data, enchanced security, better privacy and 100% availability. The benefits of the decentralised web are becoming known as "web3".
+Decentralised web technologies have developed significantly over the last decade; promising benefits such as censorship resistance, user-owned data, enchanced security, better privacy and 100% availability. These benefits are being labelled in various ways, including "web3", "web5" and "dWeb".
 
 However, there are still significant challenges to overcome to compete with traditional "web2" solutions, typically comprising of vast centralised computing infrastructure and services, controlled by a small number of large corporations (AWS, GCP, Azure etc). They are low cost, fast, scalable and convenient.
 
-By contrast, the web3 ecosystem, and the interoperable standards necessary for it to function effectively, is still in its infancy. We seek to understand what a truly open, standards-based web3 infrastructure might look like, and bring together the best solutions to realise that vision.
+By contrast, the dWeb ecosystem, and the interoperable standards necessary for it to function effectively, is still in its infancy. We seek to understand what a truly open, standards-based dWeb infrastructure might look like, and bring together the best solutions to realise that vision.
 
 > As a web developer, I want to develop and run decentralised, performant software as easily as I can run software on AWS.
 
 ### Key questions to address
 
-1. What might an open, global web3 infrastructure look like?
+1. What might an open, global dWeb infrastructure look like?
 2. What existing protocols would be well suited to making up that infrastructure, and are there still gaps to fill?
 3. Can we create a working implementation of that joined-up infrastructure that is easy for anyone to run?
 
@@ -30,16 +36,14 @@ By contrast, the web3 ecosystem, and the interoperable standards necessary for i
 5. I should be able to run a public or private instance of the infrastructure
 6. I should be able to code software in any programming languages of my choosing
 
+### The dWeb ecosystem
+
+We're mapping out the layers emerging in the dWeb ecosystem, so we can fully understand and embrace its potential:
+
+[Check out our ecosystem map &raquo;](https://codi.io/dWeb)
+
 ### A conceptual example
 
-A very simplified high-level view, from developer and end user perspectives, of how different protocols might be combined to form a decentralised infrastructure. This is meant as a starting point for discussion.
+This is a simplified view of how different protocols might be combined to form a decentralised infrastructure. This is meant as a starting point for discussion, not a finalised concept.
 
  <img src="https://raw.githubusercontent.com/codi0/codi0.github.io/main/assets/img/codi-example.png" width="100%">
-
-### How can I get involved?
-
-First off, have a look at our [web3 ecosystem map](https://codi.io/web3). It paints a picture of the different web3 layers, and examples of existing projects within each layer. The map will keep evolving as we progress.
-
-Then check out our [open discussions](https://github.com/codi0/research/issues?q=is%3Aissue+is%3Aopen+label%3Adiscussion) to share your thoughts on the vision and get involved in research and prototyping. We'd also appreciate if you shared this repo with anyone else you think might be interested.
-
-This is an entirely open-source endeavour. As we progress, we'll also look at how to formalise and incentivise member contributions (E.g. through creation of a DAO).
