@@ -1,0 +1,366 @@
+/* GENERAL */
+
+:root {
+
+	--body-min-width: 320;
+	--body-max-width: 1200;
+	--body-min-font: 16;
+	--body-max-font: 18;
+	--body-line-height: 1.5;
+	--body-vertical-rhythm: calc(var(--body-line-height) * 1em);
+	--body-font-family: "Open Sans", sans-serif;
+	--body-font-size: calc((var(--body-min-font) * 1px) + ((var(--body-max-font) - var(--body-min-font)) * ((100vw - (var(--body-min-width) * 1px)) / (var(--body-max-width) - var(--body-min-width)))));
+	
+	--body-color: #fff;
+	--body-background-color: #030303;
+	--body-link-color: #f2f2f2;
+
+	--highlight-color: #07d995;
+	--highlight-color-secondary: #4881fa;
+
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	font-family: var(--body-font-family);
+	font-size: var(--body-font-size);
+	line-height: var(--body-line-height);
+	color: var(--body-color);
+	background: var(--body-background-color);
+	width: 100%;
+	min-height: 100vh;
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	width: 100%;
+}
+
+a {
+	color: var(--body-link-color);
+	text-decoration: none;
+	border-bottom: 1px dashed var(--body-link-color);
+}
+
+a:hover {
+	border-bottom: none;
+}
+
+
+/* SITE STRUCTURE */
+
+#wrap {
+	text-align: center;
+	min-width: calc(var(--body-min-width) * 1px);
+	min-height: 100vh;
+	padding: 0 0 80px 0;
+	position: relative;
+}
+
+.center {
+	text-align: center;
+}
+
+header h1 {
+	display: inline-block;
+	font-size: 4.0em;
+	font-weight: 100;
+	text-transform: uppercase;
+	margin: 20px 0 0 0;
+}
+
+header h1 a {
+	border: none;
+}
+
+header h1 span {
+	display: block;
+	font-size: 0.3em;
+	border-top: 1px solid #ddd;
+}
+
+header .horizon {
+	width: 100%;
+	min-height: 100px;
+	background: url('../img/space.jpg') no-repeat;
+	background-size: 100%;
+	animation: horizon 8s;
+	margin: 20px 0 0 0;
+}
+
+@keyframes horizon {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+main {
+	width: 100%;
+	max-width: calc(var(--body-max-width) * 1px);
+	margin-top: -40px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 80px;
+	text-align: left;
+}
+
+main input {
+	width: 100%;
+	max-width: 400px;
+	height: 42px;
+	padding: 10px;
+	font-size: 1.1em;
+	border-radius: 5px;
+}
+
+main .left {
+	text-align: left;
+}
+
+main .actions {
+	margin-top: 50px;
+}
+
+main .button {
+	display: block;
+	font-size: 1.2em;
+	font-weight: 600;
+	padding: 10px 12px;
+	border: none;
+	border-radius: 5px;
+	background: var(--highlight-color);
+	color: inherit;
+	text-decoration: none;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+	
+main .button.alt {
+	background: var(--highlight-color-secondary);
+	margin-top: 20px;
+}
+
+main .button:hover {
+	filter: brightness(1.1);
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	font-size: 0.9em;
+}
+
+footer > * {
+	margin: 25px 0;
+}
+
+footer .links {
+	font-size: 0.8em;
+	line-height: initial;
+	text-decoration: none;
+	color: inherit;
+}
+
+footer .links a {
+	margin: 0 10px;
+}
+
+
+/* TABS */
+
+.tabs {
+	margin-top: 50px;
+}
+
+.tabs > input {
+	position: absolute;
+	left: -200vw;
+}
+
+.tabs .panel {
+	display: none;
+	margin: 0 auto;
+}
+
+.tabs > input:first-child:checked ~ .panels > .panel:first-child,
+.tabs > input:nth-child(3):checked ~ .panels > .panel:nth-child(2){
+	display: block;
+}
+
+.tabs > label {
+	position: relative;
+	display: inline-block;
+	padding: 10px 10px 20px 10px;
+	margin-right: 10px;
+	cursor: pointer;
+	font-weight: 600;
+	font-size: 0.9em;
+	background: #1f1f1f;
+	border-radius: 10px;
+}
+
+.tabs > label[for="tab2"] {
+	margin-right: 0;
+}
+
+.tabs > label::after {
+	content: "";
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	width: 40px;
+	height: 4px;
+	background: #8d8d8d;
+}
+
+.tabs > input:focus + label::after,
+.tabs > input:checked + label::after {
+	background: var(--highlight-color);
+}
+
+.tabs > label:hover::after {
+	background: var(--body-color);
+}
+
+
+/* VARCOL TABLE */
+
+.varcol-container {
+	width: 100%;
+	height: 100%;
+	margin-top: 20px;
+	text-align: left;
+	overflow-x: auto;
+}
+
+.varcol {
+	width: 100%;
+	min-width: 720px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.varcol .row {
+	display: flex;
+}
+
+.varcol .cell {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	padding: 10px;
+	border: 1px solid var(--body-color);
+}
+
+.varcol .label {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	font-size: 0.85em;
+	font-weight: bold;
+	padding: 10px;
+	border: 1px solid var(--body-color);
+}
+
+.varcol .label p {
+	display: block;
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+	white-space: nowrap;
+	margin: 0;
+}
+
+.varcol .options {
+	display: flex;
+	flex: 1;
+}
+
+.varcol .options.multi {
+	flex-direction: column;
+}
+
+.varcol .name {
+	font-weight: bold;
+}
+
+.varcol .desc {
+	font-size: 0.85em;
+	margin-top: 2px;
+}
+
+.varcol .examples {
+	font-style: italic;
+	font-size: 0.85em;
+	margin-top: 5px;
+}
+
+.varcol .os .label {
+	background: #FF000D;
+}
+
+.varcol .database .label {
+	background: #FF7034;
+}
+
+.varcol .access .label {
+	background: #cad100;
+}
+
+.varcol .assets .label {
+	background: #017801;
+}
+
+.varcol .services .label {
+	background: #0165FC;
+}
+
+.varcol .apis .label {
+	background: #6F00FE;
+}
+
+.varcol .interfaces .label {
+	background: #AD0AFD;
+}
+
+
+/* PAGE: HOME */
+
+.home main {
+	text-align: center;
+}
+
+
+/* RESPONSIVE */
+
+@media only screen and (min-width: 30em) {
+
+	main {
+		margin-top: -20px;
+	}
+		
+	main .button {
+		display: inline-block;
+	}
+
+	main .button.alt {
+		margin-top: 0;
+		margin-left: 10px;
+	}
+
+}
+
+@media only screen and (min-width: 60em) {
+
+	main {
+		margin-top: 0px;
+	}
+
+}
